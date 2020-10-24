@@ -1,0 +1,38 @@
+#page-container {
+  max-width: 1310px;
+  padding: 0;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(3,3,3,.4)
+}
+
+/* page-header */
+
+.top-row {
+  height: 70px;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #f72210;
+}
+
+.bottom-row {
+  height: 102px;
+  background-color: white;
+}
+
+.bottom-row .container {
+  max-width: 1310px;
+}
+
+.bottom-row .form-inline input {
+  width: 90px;
+}
+
+/* top-section */
+
+#top-section h4 {
+  margin-top: 20px;
+}
