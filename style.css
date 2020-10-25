@@ -36,3 +36,15 @@ h4 {
 #top-section h4 {
   margin-top: 20px;
 }
+
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 0;
+}
+
+#top-stories {
+  padding: 0 15px;
+}
