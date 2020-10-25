@@ -1,10 +1,18 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.card {
+  max-width: 100%;
+}
+
 #page-container {
   max-width: 1310px;
   padding: 0;
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: rgba(3,3,3,.4)
 }
@@ -37,14 +45,114 @@ h4 {
   margin-top: 20px;
 }
 
+#top-section h5 {
+  font-size: 24px;
+  font-weight: 900;
+}
 .card {
   border: none;
 }
 
 .card-body {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
   padding: 0;
+  margin-bottom: 10px;
 }
 
-#top-stories {
+.card-body h5 {
+  margin-top: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#middle-column {
   padding: 0 15px;
+}
+
+#debate-top{
+  border-top: rgba(220, 220, 220, 1) solid 4px;
+  border-bottom: rgba(220, 220, 220, 1) solid 1px;
+  padding-bottom: 10px;
+  margin-bottom: 2px;
+}
+
+#debate-bottom{
+  border-bottom: rgba(220, 220, 220, 1) solid 4px;
+  border-top: rgba(220, 220, 220, 1) solid 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 2px;
+}
+
+.media {
+  border-bottom: rgba(220, 220, 220, 1) solid 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#right-column .media-body {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c757d;
+  letter-spacing: -.5px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#right-column  .media-body h5 {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: black;
+}
+.media img {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion :last-child {
+  border-bottom: none;
+}
+
+/* my turn */ 
+
+#top-section .my-turn h5 {
+  margin-top: 10px;
+  font-size: 17px;
+  color: rgba(3,3,3,.4)
+}
+
+.my-turn .card {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.my-turn #card-1 {
+  padding-left: 0;
+}
+
+.my-turn #card-3 {
+  margin-left: 5px;
+  padding-right: 0;
+}
+
+/* culture */ 
+
+#top-section .culture h5 {
+  margin-top: 10px;
+  font-size: 17px;
+  color: rgba(3,3,3,.4)
+}
+
+.culture .card {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.culture #card-1 {
+  padding-left: 0;
+}
+
+.culture #card-3 {
+  margin-left: 5px;
+  padding-right: 0;
 }
