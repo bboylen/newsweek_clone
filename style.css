@@ -156,3 +156,85 @@ h4 {
   margin-left: 5px;
   padding-right: 0;
 }
+
+/* more stories */
+
+#top-section .more-stories .media-body {
+  font-size: 15px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+#top-section .more-stories .media-body h5 {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: black;
+}
+
+.more-stories img {
+  width: 100px;
+  height: 100px;
+}
+
+.opinion :last-child {
+  border-bottom: none;
+}
+
+#top-section .media {
+  border-top: rgba(220, 220, 220, 1) solid 1px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/* SPLIT INTO LEFT CENTER RIGHT COLUMNS */
+
+/* sign-up */
+
+.sign-up {
+  max-width: 260px;
+  padding: 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+}
+
+#right-column .sign-up .media {
+  padding: 10px 1px 10px 1px;
+  border: none;
+}
+
+.sign-up img {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.sign-up input {
+  width: 90%;
+  margin-left: 10px;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  color: #555;
+}
+.sign-up button {
+  margin-left: 10px;
+  width: 90%;
+  background-color: #f61602;
+}
+
+/* in the magazine */ 
+
+#magazine-header {
+  width: 250px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#magazine-header .media-body {
+  margin-top: 3px;
+}
+#magazine-header img {
+  width: 30px;
+  height: 30px;
+}
