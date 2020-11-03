@@ -222,7 +222,11 @@ h4 {
   background-color: #f61602;
 }
 
-/* in the magazine */ 
+/* in the magazine / editor's picks*/ 
+
+#in-the-magazine .media {
+  border: none;
+}
 
 #magazine-header {
   width: 250px;
@@ -237,4 +241,27 @@ h4 {
 #magazine-header img {
   width: 30px;
   height: 30px;
+}
+
+#in-the-magazine .articles {
+  padding-top: 15px;
+  border-top: 1px solid #e0e1e1;
+}
+
+#in-the-magazine .articles .card {
+  margin-left: 10px;
+}
+
+#in-the-magazine .articles .card:first-of-type {
+  margin-left: 0px;
+}
+
+/* specific-items */
+
+.specific-sections h5 {
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  font-size: 22px;
+  padding-top: 25px;
+  border-top: 1px solid #e0e1e1;
+  color: red;
 }
