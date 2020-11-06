@@ -258,10 +258,32 @@ h4 {
 
 /* specific-items */
 
-.specific-sections h5 {
+.specific-sections .section-header {
   font: bold 16px/16px "Roboto Condensed",sans-serif;
   font-size: 22px;
   padding-top: 25px;
   border-top: 1px solid #e0e1e1;
   color: red;
+}
+
+.specific-sections .media {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.specific-sections .media:last-child {
+  border: none;
+}
+
+.specific-sections .media-body h5 {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: black;
+}
+
+.specific-sections .media img {
+  width: 100px;
+  height: 100px;
 }
