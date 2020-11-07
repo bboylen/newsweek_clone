@@ -1,7 +1,11 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f5f6;
 }
 
+#page-container, main {
+  background-color: white;
+}
 .card {
   max-width: 100%;
 }
@@ -20,15 +24,82 @@ h4 {
 /* page-header */
 
 .top-row {
-  height: 70px;
+  height: 95px;
   justify-content: space-between;
   text-align: center;
   background-color: #f72210;
 }
 
+.page-header .info {
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.page-header .logo-link {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.page-header #logo {
+  height: 60px;
+}
+
+.page-header .top-buttons {
+  margin-right: 40px;
+  margin-top: 40px;
+}
+.page-header .top-buttons a {
+  font-size: 20px;
+  letter-spacing: .75px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.page-header .top-buttons button {
+  background-color: #ffe400;
+  border: none;
+  padding: 0 15px;
+  margin-left: 25px;
+  font-size: 20px;
+  letter-spacing: .75px;
+  font-weight: 700;
+  color: black;
+  border-radius: 24px;
+}
+
+/* header bottom section */
+
+#header-bottom-top {
+  overflow: hidden;
+  padding: 0;
+  border-bottom: 1px solid #e0e1e1;
+  background-color: white;
+}
+
+#header-bottom-top nav {
+  background-color: white !important;
+}
 .bottom-row {
   height: 102px;
   background-color: white;
+}
+
+.bottom-row #navbar-items #link{
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  border-right: 1px solid #e0e1e1;
+}
+
+.bottom-row input {
+  margin-left: 10px;
+}
+
+.nav-first {
+  padding-top: 8px;
+  padding-right: 8px;
 }
 
 .bottom-row .container {
@@ -39,14 +110,37 @@ h4 {
   width: 90px;
 }
 
+#header-bottom-bottom nav{
+  overflow: hidden;
+  max-width: 1310px;
+  background-color: white !important;
+  border-bottom: 1px solid #e0e1e1;
+}
+
+#header-bottom-bottom #link {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#header-bottom-bottom .nav-first {
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0,0,0,.5);
+}
+
 /* top-section */
 
+#top-section {
+  margin-top: 20px;
+}
 #top-section h4 {
   margin-top: 20px;
 }
 
 #top-section h5 {
-  font-size: 24px;
+  font-size: 2px;
   font-weight: 900;
 }
 .card {
