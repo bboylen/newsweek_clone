@@ -72,14 +72,14 @@ h4 {
 /* header bottom section */
 
 #header-bottom-top {
-  overflow: hidden;
   padding: 0;
-  border-bottom: 1px solid #e0e1e1;
+  
   background-color: white;
 }
 
 #header-bottom-top nav {
   background-color: white !important;
+  border-bottom: 1px solid #e0e1e1;
 }
 .bottom-row {
   height: 102px;
@@ -110,8 +110,10 @@ h4 {
   width: 90px;
 }
 
+#header-bottom-bottom {
+  width: 100%;
+}
 #header-bottom-bottom nav{
-  overflow: hidden;
   max-width: 1310px;
   background-color: white !important;
   border-bottom: 1px solid #e0e1e1;
@@ -133,7 +135,7 @@ h4 {
 /* top-section */
 
 #top-section {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 #top-section h4 {
   margin-top: 20px;
